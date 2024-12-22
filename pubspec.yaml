@@ -1,0 +1,58 @@
+name: healwiz
+description: "A new Flutter project."
+publish_to: 'none' # Prevent accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase Core
+  firebase_core: ^3.8.1
+
+  # Firebase Authentication
+  firebase_auth: ^5.3.4
+
+  # Firebase Storage
+  firebase_storage: ^12.3.7
+
+  # Cloud Firestore
+  cloud_firestore: ^5.5.1
+
+  # Firebase App Check
+  firebase_app_check: ^0.3.1+7
+
+  # Other Dependencies
+  google_fonts: ^6.1.0
+  file_picker: ^5.4.0
+  dio: ^5.4.0
+  image_picker: ^1.0.7
+  percent_indicator: ^4.2.3
+  smooth_page_indicator: ^1.1.0
+  animate_do: ^3.3.3
+  flutter_gemini: ^3.0.0
+  lottie: ^3.0.0
+  path: ^1.9.0
+  flip_card: ^0.7.0
+  flutter_markdown: ^0.7.3+2
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/1.png
+    - assets/2.png
+    - assets/3.png
+    - assets/animation.json
+    - assets/animation1.json
+    - assets/animation2.json
+    - .env
